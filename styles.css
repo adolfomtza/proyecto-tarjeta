@@ -1,0 +1,26 @@
+body {
+    background-color: #f0f0f0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background: linear-gradient(to right, rgb(255, 100, 100), rgb(100, 100, 255)); 
+    border-radius: 15px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    max-width: 300px; 
+    text-align: center;
+    font-family: 'Arial', sans-serif; 
+    transition: transform 0.3s; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+
+.info {
+    color: hsl(210, 50%, 20%); 
+}
